@@ -32,7 +32,7 @@ code .
   Having issues installing the server due to error 0x602? Then checkout [Troubleshooting](#troubleshooting)
 </Tip>
 
-Step 3. If you have the "Task Runner" extension installed in VSCode, you can simply press "Install Server" in the task list to run the "Install Server" script. If not, then you can do the following
+Step 3. If you have the "Task Runner" extension installed in VSCode, you can simply press "Download Server" in the task list to run the "DownloadServer" script. If not, then you can do the following
 
 ```ps PowerShell
 ./_scripts/install_server.ps1
@@ -41,14 +41,14 @@ Step 3. If you have the "Task Runner" extension installed in VSCode, you can sim
 <Info>
   You can choose to start the server via GMRDB, whick will enable debugging mode, giving you access to things such as [breakpoints](https://en.wikipedia.org/wiki/Breakpoint)!
 </Info>
-Step 4. Once the server is installed, if you have the "Task Runner" extension installed in VSCode, you can simply press "Run Server" in the task list to run the "Run Server" script.
+Step 4. Once the server is installed, press F5 to start debugging. The server will now auto start and you will auto connect to it. If you do not auto connect ensure no gmod instances are running. You can use the connect to server task to auto connect again.
 
 ```ps PowerShell
 ./_scripts/run_server.ps1
 ```
 
 Step 5. You are all done! 🎉<br />
-To connect to the server, use the "Connect" task or find it in the legacy server browser. If there is a password, you will need to enter it before you can connect. The password is `WGDevServer`
+
 
 ## Troubleshooting
 
